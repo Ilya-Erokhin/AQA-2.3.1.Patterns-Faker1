@@ -88,7 +88,7 @@ class CardOrderTest {
         $("[data-test-id=city] input").setValue(user.getCity());
         $("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a" + Keys.DELETE);
         $("[data-test-id=date] input").setValue(firstMeetingDate);
-        $("[data-test-id=name] input").setValue("Oliynyk Marina");
+        $("[data-test-id=name] input").setValue("Erokhin ilya");
         $("[data-test-id=phone] input").setValue(user.getPhone());
         $("[data-test-id=agreement]").click();
         $(withText("Запланировать")).click();
